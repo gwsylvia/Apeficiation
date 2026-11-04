@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """
 Anchor line in:  R,<sweep>,<anchor>,<range_m>,<rx_power_dbm>
 Position out:    OSC /tag/position [x, y, z] in cm
