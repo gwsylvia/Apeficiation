@@ -1,11 +1,11 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """
 Anchor line in:  R,<sweep>,<anchor>,<range_m>,<rx_power_dbm>
 Position out:    OSC /tag/position [x, y, z] in cm
 
 Install:  pip install pyserial python-osc
-Run:      python3 uwb_gateway.py                    (all /dev/ttyACM* ports)
-          python3 uwb_gateway.py --dry-run          (print only, no OSC)
+Run:      python3 pi_gateway.py                    (all /dev/ttyACM* ports)
+          python3 pi_gateway.py --dry-run          (print only, no OSC)
 """
 
 import argparse
